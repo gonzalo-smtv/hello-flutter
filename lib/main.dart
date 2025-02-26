@@ -42,6 +42,9 @@ class MyHomePage extends StatelessWidget {
     var appState = context.watch<MyAppState>();
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Hello Flutter', style: TextStyle(color: Colors.green)),
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
