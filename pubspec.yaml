@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   english_words: ^4.0.0
   provider: ^6.1.2
+  particle_auth_core: ^2.1.23
 
 dev_dependencies:
   flutter_test:
