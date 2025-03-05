@@ -1,0 +1,2 @@
+/Users/gonzalolopez/projects/tad/charge/flutter_application_1/android/app/.cxx/Debug/5t3z6750/x86/CMakeFiles/edit_cache.dir
+/Users/gonzalolopez/projects/tad/charge/flutter_application_1/android/app/.cxx/Debug/5t3z6750/x86/CMakeFiles/rebuild_cache.dir

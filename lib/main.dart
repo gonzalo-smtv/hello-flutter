@@ -1,14 +1,14 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:particle_auth_core/particle_auth_core.dart';
+// import 'package:particle_auth_core/particle_auth_core.dart';
 
 void main() {
-  ParticleInfo.set("174deb86-6371-4b53-a05a-64271df51eab",
-      "c9QGqJAAL6KUmJZSvyq87CZLJhcdkwZFGL5a0tpb");
-  ParticleBase.init(
-      ChainInfo.Ethereum, Environment.production); // or Environment.debug
-  ParticleAuthCore.init();
+  // ParticleInfo.set("174deb86-6371-4b53-a05a-64271df51eab",
+  //     "c9QGqJAAL6KUmJZSvyq87CZLJhcdkwZFGL5a0tpb");
+  // ParticleBase.init(
+  //     ChainInfo.Ethereum, Environment.debug);
+  // ParticleAuthCore.init();
 
   runApp(MyApp());
 }
