@@ -15,6 +15,10 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
+    dataBinding {
+        enabled = true
+    }
+
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
     }
@@ -24,10 +28,14 @@ android {
         applicationId = "com.example.flutter_application_1"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        minSdk = 23
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
+        manifestPlaceholders["PN_PROJECT_ID"] = "174deb86-6371-4b53-a05a-64271df51eab"
+        manifestPlaceholders["PN_PROJECT_CLIENT_KEY"] = "c9QGqJAAL6KUmJZSvyq87CZLJhcdkwZFGL5a0tpb"
+        manifestPlaceholders["PN_APP_ID"] = "4989f39a-17f0-42cb-9c30-c4fc03e48b50"
     }
 
     buildTypes {

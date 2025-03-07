@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello Flutter', style: TextStyle(color: Colors.green)),
+        title: Text('Hello 2', style: TextStyle(color: Colors.green)),
       ),
       body: Center(
         child: Column(
